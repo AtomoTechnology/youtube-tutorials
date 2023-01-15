@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pratique</title>
+
+  <style>
+    body {
+      background: rgb(2, 63, 100);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .header {
+      background: white;
+      width: 250px;
+    }
+
+    input {
+      border: none;
+      outline: none;
+      padding: 8px;
+    }
+
+    button {
+      border: none;
+      height: 100%;
+      background: rgb(0, 94, 141);
+      color: white;
+      float: right;
+    }
+
+    .results {
+      background-color: white;
+      width: 250px;
+      margin: 20px;
+    }
+
+    .item {
+      background-color: rgb(231, 231, 231);
+      padding: 8px;
+      cursor: pointer;
+      border-bottom: 0.3px solid rgba(0, 0, 0, 0.206);
+    }
+
+    .item:hover {
+      background: rgb(3, 45, 79);
+      color: white;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="header">
+    <input type="'text" placeholder="type something..." />
+    <button>ADD</button>
+  </div>
+
+  <div class="results">
+    <div class="item">item 1</div>
+    <div class="item">item 2</div>
+    <div class="item">item 3</div>
+    <div class="item">item 4</div>
+  </div>
+
+</body>
+
+</html>

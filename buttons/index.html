@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buttons</title>
+
+  <style>
+    body {
+      background-color: rgb(2, 114, 151);
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      flex-direction: column;
+      gap: 1rem;
+      /* height: 100vh; */
+    }
+
+    .btn {
+      border: none;
+      padding: 8px 10px;
+      text-align: center;
+      background-color: white;
+      width: 100px;
+      cursor: pointer;
+    }
+
+    .btn-red {
+      background-color: rgb(237, 50, 50);
+      color: white;
+      border-radius: 3px;
+    }
+
+    .btn-red:hover {
+      animation: btnhover 3s;
+    }
+
+    @keyframes btnhover {
+      0% {
+        opacity: 0.1;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .btn-yellow {
+      background-color: rgb(239, 216, 5);
+      border-radius: 50px;
+    }
+
+    .btn-yellow:hover {
+      animation: btnyellow 5s;
+    }
+
+    @keyframes btnyellow {
+      0% {
+        transform: scale(1.2);
+      }
+
+      50% {
+        opacity: 0;
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <button>Button 01 </button>
+  <button class="btn">Button 02 </button>
+  <button class="btn btn-red ">Button 03 </button>
+  <button class="btn btn-yellow">Button 04 </button>
+
+</body>
+
+</html>

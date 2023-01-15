@@ -1,0 +1,10 @@
+.product {
+  display: flex;
+  justify-items: center;
+  gap: 10px;
+}
+
+.product-detail {
+  display: flex;
+  flex-direction: column;
+}

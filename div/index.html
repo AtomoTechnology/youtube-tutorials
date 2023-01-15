@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIV</title>
+
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      box-sizing: border-box;
+      background-color: rgb(5, 97, 178);
+    }
+
+    .div1 {
+      height: 100px;
+      width: 100px;
+      background-color: rgb(7, 180, 82);
+      padding: 10px 15px 20px 30px;
+      margin: 20px;
+    }
+
+    .div2 {
+      height: 100px;
+      width: 100px;
+      background-color: rgb(236, 79, 79);
+    }
+
+    .div3 {
+      height: 100px;
+      width: 100px;
+      background-color: rgb(246, 246, 246);
+    }
+
+
+    .boxes {
+      display: flex;
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: rgb(255, 255, 255);
+      border: 1px solid rgba(0, 0, 0, 0.341);
+    }
+
+    .target {
+      background: red;
+      margin: 15px;
+      padding: 10px;
+    }
+
+    .text {
+      background: green;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- <div class="div1">
+    <div class="div2">DIv 02 </div>
+  </div>
+  <div class="div3">div3</div> -->
+
+
+  <div class="boxes">
+    <div class="box">Lorem ipsum dolor sit amet</div>
+    <div class="box">Lorem ipsum dolor sit amet</div>
+    <div class="box">Lorem ipsum dolor sit amet</div>
+  </div>
+
+  <div class="boxes">
+    <div class="box">Lorem ipsum dolor sit amet</div>
+    <div class="box target">
+      <div class="text">Lorem ipsum dolor sit amet</div>
+    </div>
+    <div class="box">Lorem ipsum dolor sit amet</div>
+  </div>
+
+  <div class="boxes">
+    <div class="box">Lorem ipsum dolor sit amet</div>
+    <div class="box">Lorem ipsum dolor sit amet</div>
+    <div class="box">Lorem ipsum dolor sit amet</div>
+  </div>
+
+
+</body>
+
+</html>
